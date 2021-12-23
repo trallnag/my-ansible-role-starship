@@ -5,7 +5,7 @@
   register: task
   changed_when: false
 
-- { name: Debug, debug: { var: task.stdout_lines }, tags: [debug] }
+# - { name: Debug, debug: { var: task.stdout_lines }, tags: [debug] }
 
 - name: "bash : Add init block to {{ bash_bashrc_bottom }}"
   ansible.builtin.blockinfile:
