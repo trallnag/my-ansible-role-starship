@@ -1,8 +1,15 @@
-> This role is not meant to be a role that can be shared. It is only used by myself.
-> Also, instead of relying on Ansible Galaxy, I use this role in my playbooks
-> by adding the repo as a Git submodule.
+> This role is not meant to be shared. It is only used by myself.
+> I use this role in my playbooks by adding the repo as a Git submodule.
 
-# Starship
+# Ansible Role `starship`
 
-* <https://starship.rs/de-de/>
-* <https://github.com/starship/starship>
+Role that installs and configures Starship.
+
+- <https://starship.rs/de-de/>
+- <https://github.com/starship/starship>
+
+## FAQ
+
+### How to bump the version of Starship?
+
+Whenever this role is executed Starship is updated to the latest version.
