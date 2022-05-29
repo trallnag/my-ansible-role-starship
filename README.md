@@ -10,6 +10,6 @@ Role that installs and configures Starship.
 
 ## FAQ
 
-### How to bump the version of Starship?
+### How to change the installed version?
 
 Whenever this role is executed Starship is updated to the latest version.
